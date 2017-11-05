@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Install Python Prerequisites
+Comment=Install Python Prerequisites
+Exec=bash -c 'sudo apt install python-opencv python-numpy python-matplotlib python-pip python-pil; sudo pip install -U scikit-learn; sudo pip install -U scikit-image; read -n1 -r -p "Finished Installing..."'
+Icon=
+Terminal=true
+Type=Application
